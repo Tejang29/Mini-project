@@ -1,0 +1,71 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+span {
+  display: block;
+}
+
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.canvas h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Container for color buttons */
+.color-container {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+
+#blue {
+  background: blue;
+}
+
+#yellow {
+  background: yellow;
+  display: block;
+  margin: 0 auto;
+}
+
+.canvas h2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.canvas h2 span {
+  display: inline;
+}
